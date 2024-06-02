@@ -1,0 +1,24 @@
+* {
+  text-align: center;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+
+.input-container > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container > div > input {
+  width: 300px;
+}
+
+.success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
